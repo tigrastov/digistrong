@@ -9,7 +9,7 @@
 
 .content-container {
   display: flex;
-  align-items: stretch; /* <--- ВАЖНО! Добавили */
+  align-items: stretch; 
   position: absolute;
   top: 125px; 
   left: 50%;
@@ -39,28 +39,28 @@ font-weight:bold;
 .photo-container {
   position: relative;
   width: 40%;
-  height: auto; /* убираем height: 100%, flex сам растянет */
-  flex: 0 0 40%; /* гарантируем, что фото занимает 40% ширины и вся высота */
+  height: auto; 
+  flex: 0 0 40%; 
   overflow: hidden;
 }
 
 .profile-photo {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* чтобы картинка не деформировалась и заполнила контейнер */
+  object-fit: cover; 
 }
 
 .photo-button {
   position: absolute;
   top: 50%;
-  right: 0; /* прилипает к правому краю */
+  right: 0; 
   transform: translateY(-50%);
   background-color: rgba(0, 0, 0, 0.8);
-  color: white; /* фиксируем белый цвет */
+  color: white; 
   text-decoration: none;
   font-size: 2rem;
-  padding: 10px; /* квадратная кнопка */
-  border-radius: 0; /* можешь поставить 0 или оставить 3px, как хочешь */
+  padding: 10px;
+  border-radius: 0; 
 transition: all 0.3s ease;
 
   width: 30px;
