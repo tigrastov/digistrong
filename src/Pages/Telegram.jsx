@@ -5,8 +5,8 @@ export default function Telegram(){
     return(
 <div className='telegram'>
       <div className='telegram-container'>
-        <h1>DIGIstrong</h1>
-        <p>Software solutions for your business</p>
+        <h1>Telegram</h1>
+
       </div>
     </div>
     );
