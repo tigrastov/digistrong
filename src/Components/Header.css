@@ -9,7 +9,6 @@
   z-index: 9999; 
 }
 
-
 nav {
   max-width: 960px;   
   margin: 0 auto;
@@ -20,7 +19,6 @@ nav {
   box-sizing: border-box;
   padding: 0 2rem;    
 }
-
 
 .nav-icon {
   width: 50px;
@@ -34,17 +32,13 @@ nav {
   opacity: 1;
 }
 
-
 .active .nav-icon {
   opacity: 1;
 }
 
-
 nav a.active {
   position: relative;
 }
-
-
 
 nav a.active::after {
   content: '';

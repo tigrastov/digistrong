@@ -25,9 +25,14 @@ export default function Header() {
         <NavLink to="/message">
           <img src={icons.message} alt="Message" className="nav-icon" />
         </NavLink>
-        <NavLink to="/telegram">
+       <a 
+          href="https://t.me/tigrastov" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="telegram-link"
+        >
           <img src={icons.telegram} alt="Telegram" className="nav-icon" />
-        </NavLink>
+        </a>
       </nav>
     </header>
   );

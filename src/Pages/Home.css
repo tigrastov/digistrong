@@ -10,7 +10,7 @@
 .content-container {
   display: flex;
   align-items: stretch; 
-  position: absolute;
+  position: fixed;
   top: 125px; 
   left: 50%;
   transform: translateX(-50%);
