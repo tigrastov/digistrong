@@ -40,7 +40,7 @@ nav a.active {
   position: relative;
 }
 
-nav a.active::after {
+/* nav a.active::after {
   content: '';
   position: absolute;
   bottom: -100px;
@@ -51,5 +51,20 @@ nav a.active::after {
   background: white;
   z-index: 1;
   transition: all 0.3s ease;
-}
+}  */
 
+nav a.active::after {
+  content: '';
+  position: absolute;
+  top: 70px; 
+  left: 50%;
+  transform: translateX(-50%) rotate(180deg);
+  width: 0;
+  height: 0;
+  border-left: 32px solid transparent;
+  border-right: 32px solid transparent;
+  border-top: 32px solid white; 
+  border-bottom: none;
+  z-index: 1;
+  transition: all 0.3s ease;
+}
