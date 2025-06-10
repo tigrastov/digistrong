@@ -1,17 +1,12 @@
 .footer {
-
   color: white;
   text-align: center;
   padding: 20px 0;
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-
-  /* z-index: 100; */
-
+ 
   display: flex;          
   justify-content: center;
   align-items: center;    
   gap: 30px;   
+  background: #6a6767; 
+  margin-top: auto; 
 }

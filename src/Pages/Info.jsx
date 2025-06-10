@@ -1,5 +1,9 @@
 import './Info.css';
 import CardVisit from '../Components/CardVisit.jsx';
+import CardMobile from '../Components/CardMobile.jsx';
+import CardLanding from '../Components/CardLanding.jsx';
+import CardOnlineRegistration from '../Components/CardOnlineRegistration.jsx';
+import CardStore from '../Components/CardStore.jsx';
 
 export default function Info(){
     return (
@@ -14,8 +18,12 @@ export default function Info(){
 
 <div className='cards-container'>
 <CardVisit/>
-<CardVisit/>
-<CardVisit/>
+<CardMobile/>
+<CardStore/>
+<CardOnlineRegistration/>
+<CardLanding/>
+
+
 </div>
 
 
