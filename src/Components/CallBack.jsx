@@ -1,10 +1,8 @@
-// CallBack.jsx
+
 import './CallBack.css';
 import { useState } from "react";
 
-
 export default function CallBack() {
-
 
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
@@ -13,7 +11,6 @@ export default function CallBack() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     
-    // const botToken = "7854407106:AAHIdQlFlNplJcFENxw5z78sfWQhPyTMI0k";
     const botToken = "7931813918:AAFqMdgRv_0WTPMuptl9zy-Yw9tTE5DzEYU";
 
     const chatId = "458204664";
@@ -39,12 +36,9 @@ export default function CallBack() {
 
   };
 
-
   return (
     <div className='callback'>
       
-
-
               <h2>Обратный звонок</h2>
               {isSubmitted ? (
                 <p className="success-message">Спасибо! Мы скоро вам перезвоним.</p>
@@ -73,8 +67,6 @@ export default function CallBack() {
                   </button>
                 </form>
               )}
-            
-
     </div>
   );
 }

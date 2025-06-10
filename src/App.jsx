@@ -4,7 +4,7 @@ import Home from './Pages/Home';
 import Contacts from './Pages/Contacts';
 import Info from './Pages/Info';
 import Message from './Pages/Message';
-import Telegram from './Pages/Telegram';
+
 import Footer from './Components/Footer';
 import './App.css';
 
@@ -18,7 +18,6 @@ function App() {
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/info" element={<Info />} />
         <Route path="/message" element={<Message />} />
-        <Route path="/telegram" element={<Telegram />} />
       </Routes>
       <Footer />
       </div>

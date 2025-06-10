@@ -3,11 +3,12 @@
   color: white;
   text-align: center;
   padding: 20px 0;
-  position: relative;
+  position: fixed;
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 100;
+
+  /* z-index: 100; */
 
   display: flex;          
   justify-content: center;
