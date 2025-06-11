@@ -6,7 +6,7 @@ export default function Home() {
       <div className='content-container'>
 
         <div className='text-content'>
-        <img src='DiGiStrong.png' alt='logo'/>
+        <img className='logo' src='DiGiStrong.png' alt='logo'/>
         <p>@ Разработка сайтов и приложений</p>
         <p>@ Цифровые решения для бизнеса</p>
         </div>
