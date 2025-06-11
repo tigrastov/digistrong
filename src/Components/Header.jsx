@@ -2,11 +2,11 @@ import { NavLink } from 'react-router-dom';
 import './Header.css';
 
 const icons = {
-  home: 'public/icons8-home-100.png',
-  contacts: 'public/icons8-phone-100.png',
-  info: 'public/icons8-folder-100.png',
-  telegram: 'public/icons8-telegram-100.png',
-  message: 'public/icons8-mail-100.png'
+  home: '/icons8-home-100.png',
+  contacts: '/icons8-phone-100.png',
+  info: '/icons8-folder-100.png',
+  telegram: '/icons8-telegram-100.png',
+  message: '/icons8-mail-100.png'
 };
 
 export default function Header() {

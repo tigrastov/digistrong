@@ -16,7 +16,7 @@ export default function CardVisit({
   return (
     <div className="card">
       <div className="card-image-wrapper">
-        <img src="public/store.png" alt={title} className="card-image" />
+        <img src="/store.png" alt={title} className="card-image" />
       </div>
       <h2 className="card-title">{title}</h2>
       <p className="card-desc">{description}</p>

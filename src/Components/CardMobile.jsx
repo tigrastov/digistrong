@@ -15,7 +15,7 @@ to = '/message',
   return (
     <div className="card">
       <div className="card-image-wrapper">
-        <img src="public/mobil.png" alt={title} className="card-image" />
+        <img src="/mobil.png" alt={title} className="card-image" />
       </div>
       <h2 className="card-title">{title}</h2>
       <p className="card-desc">{description}</p>
