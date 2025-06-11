@@ -13,7 +13,7 @@ export default function Home() {
         
         <div className='photo-container'>
           <img src='/Digital.png' alt='Portrait' className='profile-photo'/>
-          <a href="/info" className='photo-button'>&#x276F;</a>
+          <a href="/info" className='photo-button'><img src="/icons8-forward-50.png" alt="" /></a>
         </div>
 
       </div>
