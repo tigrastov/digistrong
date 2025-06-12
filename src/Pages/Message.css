@@ -34,6 +34,8 @@
   padding: 30px;
   padding-top: 80px;
   z-index: 2;
+  max-height: calc(100vh - 170px); /* высота окна минус отступ сверху и снизу */
+  overflow-y: auto;  
 }
 @media (max-width: 600px) {
   .message-container {

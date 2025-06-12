@@ -5,6 +5,7 @@
   min-height: 100vh;
   padding: 20px;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .content-container {
@@ -17,8 +18,11 @@
   width: 90%;
   max-width: 800px;
   background: white;
+
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   z-index: 2;
+  max-height: calc(100vh - 170px); /* высота окна минус отступ сверху и снизу */
+  overflow-y: auto;  
 }
 
 .text-content {
@@ -109,6 +113,7 @@ opacity: 1;
 
 @media (max-width: 768px) {
   .content-container {
+    width: 100%;
     padding-top: 30px;
     flex-direction: column;
     height: auto;

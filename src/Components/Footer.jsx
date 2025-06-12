@@ -6,7 +6,7 @@ const Footer = () => {
       <p>Web</p>
       <p>IOS</p>
       <p>Android</p>
-      <p>© 2025 Все права защищены.</p>
+      <p>© 2025</p>
     </footer>
   );
 };
