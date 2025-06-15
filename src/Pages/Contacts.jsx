@@ -26,12 +26,13 @@ export default function Contacts() {
         </div>
 
 
-         <div className='link-container'>
-           <img src='mail.png'className='icon-link'alt='mail'/>
-         <a href="tigrastov@gmail.com" className="contact-link">
-            <span>tigrastov@gmail.com</span>
-          </a>
-        </div>
+        <div className='link-container'>
+  <img src='mail.png' className='icon-link' alt='mail' />
+  <a href="mailto:tigrastov@gmail.com?subject=Связаться с вами" className="contact-link">
+    <span>tigrastov@gmail.com</span>
+  </a>
+</div>
+
 
         </div>
         

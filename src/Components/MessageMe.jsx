@@ -10,8 +10,7 @@ export default function MessageMe() {
     e.preventDefault();
     
     const botToken = "7931813918:AAFqMdgRv_0WTPMuptl9zy-Yw9tTE5DzEYU"; // Ваш токен
-    const chatId = "458204664"; // Ваш chat_id
-    
+    const chatId = "458204664"; 
     const text = `✉️ Новое сообщение!\n\nСообщение: ${message}\nКонтакт для ответа: ${contact}`;
 
     try {
