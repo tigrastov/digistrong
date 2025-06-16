@@ -4,7 +4,6 @@ import Home from './Pages/Home';
 import Contacts from './Pages/Contacts';
 import Info from './Pages/Info';
 import Message from './Pages/Message';
-
 import Footer from './Components/Footer';
 import './App.css';
 
