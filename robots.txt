@@ -1,3 +1,4 @@
 User-agent: *
-Allow: /
-Sitemap: https://www.digistrong.ru/sitemap.xml
+Disallow:
+
+Sitemap: https://digistrong.ru/sitemap.xml
